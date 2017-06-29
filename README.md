@@ -9,7 +9,7 @@ Here is the instruction for loading this unpacked extension on your chrome:
 
 1. download the file ad-free from this github repository
 
-2. open the link  
+2. open the link:  
 chrome://extensions
 
 3. click the "developer mode" on the right top corner
