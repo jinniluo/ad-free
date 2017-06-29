@@ -1,0 +1,28 @@
+{
+	"name": "Kini's ads free",
+	"version": "2.0",
+	"manifest_version": 2,
+	"description": "remove ads from website",
+	"permissions": [
+    	"tabs",
+        "bookmarks",
+        "http://*/","https://*/","http://*/*","https://*/*","http://www.jc88.net/*"
+  	],
+	"icons": {
+		"16": "icon-16-coco.png",
+		"128": "icon-128-coco.png"
+	},
+	"browser_action": {
+		"default_icon": "icon-16-coco.png",
+		"default_popup": "popup.html"
+	},
+	"content_scripts": [
+    {
+      "matches": [
+          "http://*/","https://*/","http://*/*","https://*/*","http://www.jc88.net/*"
+      ],
+      "js": ["js/jquery-1.10.1.min.js", 
+             "js/adsfree.js"]
+    }
+  ]
+}
