@@ -1,7 +1,7 @@
 # A chrome extension for removing ads on the web page.
 
 
-intall from chrome extension and you could test it on the following wesites (also other websites) to test the results:
+install this extension from Chrome and you could test it on the following wesites (also other websites) to test the results:
 http://font.chinaz.com/
 http://cn.dealmoon.com/
 
